@@ -1,8 +1,8 @@
-import {childprocesses} from '/workspaces/OS-1-2024b/projects/child-processes.js'
-import {ipc} from '/workspaces/OS-1-2024b/projects/ipc.js'
-import {ProcessesState} from '/workspaces/OS-1-2024b/projects/processes-state.js'
+import {childprocesses} from '/workspaces/OS-1-2024B-DELETE/projects/child-processes.js'
+import {ipc} from '/workspaces/OS-1-2024B-DELETE/projects/ipc.js'
+import {ProcessesState} from '/workspaces/OS-1-2024B-DELETE/projects/processes-state.js'
 
-console.log("🌟Programa de procesosos🌟")
+console.log("✨ Programa de procesosos ✨")
 let option= process.argv[2];
 switch (option) {
     case "1":
@@ -15,6 +15,6 @@ switch (option) {
         ProcessesState();
         break;
     default:
-        console.log("👶 opcion invalida");
+        console.log("❌ opcion invalida ❌");
     break;
 }

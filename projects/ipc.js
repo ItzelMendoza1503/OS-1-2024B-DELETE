@@ -1,7 +1,7 @@
 import {fork} from 'child_process';
 
 export function ipc() {
-    console.log("=== 🔮Comunicacion entre procesos ===");
+    console.log("=== 📶 Comunicacion entre procesos 📶 ===");
       //1. creando un subproceso de Node
       const child = fork('./projects/child.js');
 
@@ -11,6 +11,6 @@ export function ipc() {
       });
       
       //Enviando un mensaje al proceso hijo
-      child.send({message: '❄ Merry christmas ❄'});
+      child.send('❄ Merry christmas ❄');
 
 }

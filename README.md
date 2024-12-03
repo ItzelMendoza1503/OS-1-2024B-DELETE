@@ -2,10 +2,11 @@
 
 ## OS-1-2024B-DELETE
 Proyecto final de sistemas Operativos 1 2024B
+
 ## Descripción 
+Este es el proyecto final de sistemas operativos sobre procesos
 
 ## Autor 
-
 [Itzel Menodza ](https://github.com/ItzelMendoza1503) 
 
 ## Ramas del proyecto 
